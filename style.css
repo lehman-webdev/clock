@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+#clock {
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3em;
+  margin: 1em;
+}
+
+#clock.paused {
+  color: lightgrey;
+}
+
+#toggle {
+  font-size: 2em;
+  cursor: pointer;
+}
