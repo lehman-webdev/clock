@@ -8,7 +8,7 @@ function tick() {
   var element = document.getElementById('clock');
 
   // set the text of the HTML element
-  element.innerText = time;
+  element.textContent = time;
 }
 
 function toggle() {
